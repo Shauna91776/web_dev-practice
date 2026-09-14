@@ -1,0 +1,148 @@
+/* html {
+  background-color: green;
+  font-size: 20px;
+}
+
+ul {
+  background: red;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+li {
+  margin-left: 20px;
+} */
+
+
+body{
+    /* background-image: url("Screenshot 2026-07-12 214955.png"); */
+    /* background: linear-gradient(to left, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    margin: 0px;
+
+}
+
+h1{
+  /* border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-left-width: 10px;
+  border-left-color: silver;
+
+
+
+  color: white; */
+  background: linear-gradient(to left, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 5px 5px 5px red;
+    box-shadow: 0px 0px 0px black;
+}
+p{
+  /* border-style: outset;
+  border-width: 5px;
+  border-color: gold;
+  border-radius: 10px;
+  padding: 5px */
+  background: linear-gradient(to left, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+    /* background-color: black;
+    color: blue;
+    font-family: "consolas", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px; */
+}
+
+a:link{
+  color: green;
+
+}
+a:visited{
+  color:grey;
+}
+
+a:hover{
+  color: pink;
+}
+
+a:active{
+  color:red;
+}
+
+button:hover{
+ background-color: lightgreen;
+}
+
+button:active{
+  color: red;
+}
+
+li:nth-child(2n){
+  background-color: yellow;
+}
+
+#p1 {
+  border: 5px solid;
+  width:500px;
+  height: 400px;
+  font-size: 22px;
+  background: yellow;
+  text-align: cnetre;
+  /* padding: 10px; */
+  /* margin-left: 50px;
+  position:relative;
+
+  top:40px;
+  left: 0px; */
+  animation: mySlide;
+  animation-iteration-count:3;
+  animation-duration: 5s;
+
+
+}
+
+@keyframes mySlide {
+  from{margin-left: 100%}
+  to{margin-left: 0%}
+  
+}
+
+
+#p2 {
+   border: 5px solid;
+  width:250;
+  height: 250;
+  font-size: 22px;
+  background: pink;
+  margin-left:auto;
+  float: right;
+  /* float is to have words hsurround and image or box */
+}
+
+/* #p3 {
+  background-color: black;
+  color: yellow;
+}
+
+#p4 {
+  background-color: purple;
+  color: yellow;
+} */
+
+
+/* .odd{
+  color: red;
+}
+
+.even{
+  color: blue;
+} */
+
+
+
+
